@@ -44,15 +44,6 @@ The objective is to detect fraud cases accurately while balancing the trade-off 
 
 ---
 
-## ⚙️ Approach
-
-### 🔹 Handling Imbalance
-
-* Undersampling (baseline approach)
-* Class weighting (real-world approach)
-
----
-
 ### 🔹 Models Used
 
 * Logistic Regression (with class balancing)
@@ -79,7 +70,7 @@ Optimized decision threshold using F1-score instead of default 0.5.
 
 ### ✅ Precision-Recall Analysis
 
-Used PR curve to better evaluate performance on imbalanced data.
+Used the PR curve to evaluate performance on imbalanced data better.
 
 ### ✅ Confusion Matrix Comparison
 
@@ -103,7 +94,7 @@ Identified key features contributing to fraud detection using Random Forest.
 
 * Helps financial institutions detect fraudulent transactions early
 * Reduces financial losses due to undetected fraud
-* Highlights trade-off between fraud detection and customer experience
+* Highlights the trade-off between fraud detection and customer experience
 
 ---
 
