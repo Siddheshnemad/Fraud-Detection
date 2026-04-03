@@ -13,6 +13,20 @@ The objective is to detect fraud cases accurately while balancing the trade-off 
 
 ---
 
+## ⚙️ Approach
+- Data cleaning & EDA
+- Feature scaling
+- SMOTE for imbalance handling
+- Models: Logistic Regression, Random Forest
+---
+
+## 📈 Results
+- Accuracy: 95%
+- Recall: 82%
+- ROC-AUC: 0.86
+
+---
+
 ## 📊 Dataset
 
 * 284,000+ transactions
